@@ -1,0 +1,569 @@
+/*--*****   General  */
+.container {
+  padding: 0px;
+}
+
+.displayNone {
+	display: none;
+}
+
+.orangeText {
+	color:orange;
+}
+
+.greenText {
+	color:green;
+}
+
+.mt3px {
+  margin-top: 3px;
+}
+
+.externalLink {
+  margin-top:1px;
+}
+
+.spaceBackground {
+  background-color:#f8f8f8 ;
+  min-height: 980px;
+}
+
+.screenCenter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.inputBox {
+  height: 44px;
+  border:1px solid black;
+  border-radius: 6px;
+  padding: 1rem 1rem;
+}
+
+.inputButton {
+  padding-top: 9px;
+  height: 44px;
+}
+/* End of general */
+
+/*--********  Navigation bar */
+.navbarTeamName {
+	color:black !important;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.bsafesNavbar {
+  min-height: 62px;
+}
+
+.navbarMenu {
+  padding: 0.4rem 1rem;
+}
+
+.memberBadge {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin-top: 2px;
+  padding-top: 2px;
+  border-radius: 50%;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000;
+}
+/* End of navigation bar */
+
+/*--***** Custom buttons */
+.btnCircle {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.btnFloating {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  color: #FFF;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5), 3px 3px 3px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  display: inline-block;
+  cursor: default;
+  padding-top: 8px;
+  z-index:15000;
+}
+
+.btnFloatingAdd {
+	padding-top:10px;
+	padding-left:15px;
+}
+
+.btnFloatingWrite {
+  background: #03A9F4;
+  bottom: 12px;
+  right: 24px;
+  padding-left:10px;
+}
+
+.btnFloatingSave {
+  background: #229954;
+  bottom: 72px;
+  right: 24px;
+  padding-left:10px;
+}
+
+.btnFloatingCancel {
+  background: #F39C12;
+  bottom: 12px;
+  right: 24px;
+  padding-left:14px;
+}
+
+/* End of custom buttons */
+
+/*--****** Items Toolbar ***/
+.itemsToolbar {
+	background-color:#666666;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	height:54px;
+	margin:0px;
+  z-index: 100;
+}
+
+.toolbarButton {
+  box-shadow: none;
+}
+
+.toolbarButton:not(:hover) {
+  background: transparent;
+}
+
+.itemsMovingProgress {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+/* End of items toolbar */
+
+/*--****** Safe *******/
+	/* Safe general */
+.managedMemberLoginBackground {
+  background-color: #f8f8f8;
+  height: 100vh;
+}
+
+.safeBackground {
+  height:100vh;
+  background-color:#eeeeee;
+}
+
+.safeItemTypeIcon {
+  margin-right:20px;
+}
+
+.safeItem h2 {
+  margin-top:10px;
+}
+
+.itemPath {
+  background-color: #f5f5f5;
+}
+
+.itemPathBreadcrumb {
+  position: relative;
+  margin-top: 11px;
+  margin-left:16px;
+}
+
+.itemPathBreadcrumb ol{
+  margin-bottom: 2px;
+}
+
+.teamsPathItem {
+  position: relative;
+  font-size: 20px;
+  top: -3px;
+	background-color:#D6EAF8;
+}
+
+.teamsPathLink {
+	color:black;
+}
+
+.itemPathBreadcrumb a:link {
+  text-decoration: none;
+}
+
+/* End of Safe */
+
+/*--****** Container *******/
+/*--**** Container general */
+.containerTitleLabel {
+  min-height:120px;
+  border-radius:5px;
+  background-color:white;
+  padding:10px 20px 10px 20px;
+}
+
+.containerControlPanel {
+  background-color:black;
+  min-height: 61px;
+}
+
+.containerSearchPanel {
+  background-color:white;
+  min-height: 61px;
+}
+
+.pageNavigationPart {
+  float:left;
+}
+
+.pageNumberInput {
+  background-color:transparent;
+  margin-bottom:6px;
+  max-width:50px;
+  text-align:center;
+  color: white;
+}
+
+.pageNumberInput:focus {
+  color: white;
+}
+
+.pagePanel, .containerCoverPanel, .containerContentsPanel, .folderPanel, .notebookPanel, .diaryPanel, .boxPanel {
+  position: relative;
+  min-height: 925px;
+  padding-bottom:48px;
+}
+
+.containerOpenBtn {
+  background: #7F8C8D;
+  display: inline-block;
+  margin: 0 1em 1em 0;
+  padding-top:16px;
+	width: 48px;
+	height: 96px;
+	border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+	position: absolute;
+  right: -18px;
+}
+
+.contentsItemRow {
+  z-index:100;
+}
+
+.turningPageRow {
+  position:fixed;
+  left: 0px;
+  right:0px;
+  top:40%;
+  width:100%;
+  z-index: 10;
+}
+
+.pageBtn {
+  position: relative;
+  background-color:transparent;
+  display: inline-block;
+  z-index:1000;
+  color: black;
+}
+
+.pageBtnFixed {
+  position: fixed;
+  top:45%;
+  background-color:transparent;
+  display: inline-block;
+  z-index:1000;
+  color: black;
+}
+
+.coverBtnFixed {
+  position: fixed;
+  background-color:transparent;
+  display: inline-block;
+  z-index:1000;
+  color: black;
+}
+
+
+.previousPageBtn {
+  left:-10px;
+}
+
+.nextPageBtn {
+  right:-10px;
+}
+
+.searchBar {
+  margin-left: 48px;
+}
+
+.searchBarInput {
+  margin-bottom:1px;
+  font-size: 1.25rem;;
+}
+
+/* End of container general */
+/*--***** Box */
+.boxCoverPanel {
+	margin-bottom:10px;
+  background-color:#EBF5FB;
+  border-radius:10px 10px 10px 10px;
+}
+
+.boxItemCard {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-width: 0px;
+  box-shadow: 0 0 0
+}
+
+.boxItemCardBody {
+  padding: 0px;
+  border-width: 0px;
+  box-shadow: 0 0 0
+}
+
+
+
+/* End of Box*/
+/*--**** Folder */
+.folderCoverPanel {
+  background-color:#FCF3CF;
+  border-radius:0 20px 20px 0;
+	margin-right:20px;
+}
+
+.folderTab {
+  background-color:#FCF3CF;
+  width: 45px;
+  min-height: 200px;
+  position: absolute;
+  top: 0px;
+  right:-25px;
+  border-radius: 0px 10px 30px 0;
+  z-index: 0;
+}
+
+/* End of folder */
+
+/*--***** Notebook */
+.notebookCoverPanel {
+  border-left: 30px solid #000;
+  background-color:#F2F3F4;
+  border-radius:0 20px 20px 0;
+}
+/* End of notebook */
+
+/*--****** Diary */
+.diaryControlPanelBody {
+  padding-bottom: 10px;
+}
+
+.diaryCoverPanel {
+  border-left: 30px solid #000;
+  background-color:#FEF5E7;
+  border-radius:0 20px 20px 0;
+}
+
+.diaryWeekendItem {
+  background-color: rgb(242, 243, 244);
+}
+
+.diaryTodayItem {
+  background-color: rgb(235, 245, 251);
+}
+/* End of diary */
+
+/*--****** Page *******/
+/*--***** Page general */
+.pagePanel {
+  background-color:rgb(255, 255, 255);
+  margin-top:20px;
+  margin-bottom:20px;
+  padding-left:15px;
+  padding-right:15px;
+  padding-bottom:48px;
+}
+
+.pageBackground {
+  background-color: rgb(161, 158, 158);
+  padding-bottom:30px;
+}
+
+.leftPagePanel {
+  border-radius: 20px 0 0 20px;
+}
+
+.rightPagePanel {
+  border-radius: 0 20px 20px 0;
+}
+
+.videosDragDropZone {
+  border: 2px dashed #e4e1e1;
+  background-color: lavender;
+  margin-bottom: 10px;
+}
+
+.videosDragDropZoneActive {
+  border: 2px dashed #e4e1e1;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.imagesDragDropZone {
+  border: 2px dashed #e4e1e1;
+  background-color: aliceblue;
+  margin-bottom: 10px;
+}
+
+.imagesDragDropZoneActive {
+  border: 2px dashed #e4e1e1;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.attachmentsDragDropZone {
+  border: 2px dashed #e4e1e1;
+  background-color: blanchedalmond;
+  margin-bottom: 10px;
+}
+
+.attachmentsDragDropZoneActive {
+  border: 2px dashed #e4e1e1;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.attachmentMoreBtn button {
+  padding-top: 0px;
+}
+
+/* End of Page */
+
+/*--****** Editor *******/
+/*--***** Editor general */
+.editorRow {
+  min-height:60px;
+  /*overflow-x:auto;*/
+  font-size: 1.1rem;
+}
+
+.titleEditorRow {
+  min-height:36px;
+  overflow-x:auto;
+  font-size: 1.1rem;
+}
+
+/* End of Editor */
+
+/*--****** Image Panel *******/
+.imagePanelButton {
+  padding-left: 0px;
+  padding-right:0px;
+}
+/* End of Image Panel */
+
+
+/*--****** MFA *******/
+.qrCode {
+  width: 256px;
+}
+
+/* End of MFA */
+
+/*--****** Metal *******/
+.metalBackground {
+	--u:  0.8vmin;	
+	--c1: #393939;
+  --c2: #1f1f1f;
+  --c3: #000000;
+	--gp: 50%/calc(var(--u) * 5) calc(var(--u) * 10);
+	--bp: calc(var(--u) * -2.5) calc(var(--u) * -5);
+	--bg: 
+		radial-gradient(circle at 50% 25%, var(--c2)  15%, #fff0 30% 100%) var(--gp),
+		conic-gradient(from 270deg at 34% 46%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp),
+		conic-gradient(from 45deg at 66% 46%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp),
+		conic-gradient(from 180deg at 50% 80%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp),
+		conic-gradient(from 135deg at 50% 80%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp),
+		conic-gradient(from 0deg at 0% 20%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp),
+		conic-gradient(from -45deg at 100% 20%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp),
+		linear-gradient(180deg, var(--c2) 0 4.5%, #fff0 0 45.25%, var(--c2) 0 50%, #fff0 0% 100%) var(--gp),
+		radial-gradient(circle at 50% 25%, #fff0 0 25%, var(--c2) 26% 32%, #fff0 0 100%) var(--gp),
+		linear-gradient(165deg, var(--c3) 15%, var(--c1) 44%, #fff0 0 100%) var(--gp),
+		linear-gradient(180deg, var(--c1) 50%, #fff0 0 100%) var(--gp);
+	background: 
+		var(--bg), 
+		var(--bg);
+	background-position: 
+		var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), 
+		0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
+}
+
+.metallicButton {
+  font-size: 22px;
+  padding: 6px 16px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  color: #000;
+  background: linear-gradient(
+    45deg,
+    #999 5%,
+    #fff 10%,
+    #ccc 30%,
+    #ddd 50%,
+    #ccc 70%,
+    #fff 80%,
+    #999 95%
+  );
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.metallicButton:hover {
+  transform: translateY(-2px);
+}
+
+.metalH1>span{
+  /*color:white;*/
+  position: absolute;
+  transition: translateY(-50%);
+  padding: 0;
+  font-style: italic;
+  font-size:0.6em;
+  letter-spacing: 5px;
+  background:linear-gradient(#262626,#eaeaea,#262626);
+  -webkit-background-clip: text;
+  color:transparent;
+}
+.metalH1>span:nth-child(1)
+{
+  z-index: 2;
+}
+.metalH1>span:nth-child(2)
+{
+  z-index: 1;
+  text-shadow: 1px 1px 0 #262626, 2px 2px 0 #262626, 1px 2px 2px rgba(0,0,0,1),
+  -1px -1px 0 #fff;
+}
+/* End of Metal */
